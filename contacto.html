@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2018PF601</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+</head>
+<body>
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+        <div class="navbar-collapse collapse w-100 order-1 order-md-0 dual-collapse2">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html">Inicio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="joyeria.html">Joyeria</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="maquillaje.html">Maquillaje</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="ropa.html">Ropa</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="zapatos.html">Zapatos</a>
+                </li>
+            </ul>
+        </div>
+        <div class="mx-auto order-0">
+            <a class="navbar-brand mx-auto" href="#">Tienda La Esperanza</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".dual-collapse2">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        </div>
+        <div class="navbar-collapse collapse w-100 order-3 dual-collapse2">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="contacto.html">Contacto</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">FAQ</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div class="container">
+        <h3 class="text-muted border-bottom pb-2 pt-3">Formulario de contacto</h3>
+        <form action="registro.php" method="POST">
+            <div class="form-group">
+                <div class="row pt-3">
+                    <label for="lblName" class="col-4 text-right">Nombre</label>
+                    <input type="text" class="form-control col-8" id="txtName" placeholder="Escribe tu nombre">
+                </div>
+                <div class="row">
+                    <p class="col-4"></p>
+                    <small id="nameHelp" class="form-text text-muted col-8">debes escribir tu nombre</small>
+                </div>
+                <div class="row pt-3">
+                    <label for="lblUsuario" class="col-4 text-right">Apellido</label>
+                    <input type="text" class="form-control col-8" id="txtApellido" placeholder="Escribe tu apellido">
+                </div>
+                <div class="row">
+                    <p class="col-4"></p>
+                    <small id="UserHelp" class="form-text text-muted col-8">debes escribir tu apellido</small>
+                </div>
+                <div class="row pt-3">
+                    <label for="lblPassword" class="col-4 text-right">Correo</label>
+                    <input type="text" class="form-control col-8" id="txtCorreo" placeholder="Escribe tu correo">
+                </div>
+                <div class="row">
+                    <p class="col-4"></p>
+                    <small id="passHelp" class="form-text text-muted col-8">Escribe tu correo</small>
+                </div>
+                <div class="row pt-3">
+                    <label for="lblDireccion" class="col-4 text-right">Asunto</label>
+                    <input type="text" class="form-control col-8" id="txtDireccion" placeholder="Escribe el asunto de tu mensaje">
+                </div>
+                <div class="row pt-3">
+                    <label for="lblBio" class="col-4 text-right">Mensaje</label>
+                    <textarea class="form-control col-8" id="txtBio" placeholder="Escribe el mensaje que nos quieres enviar"></textarea>
+                </div>
+                <div class="row pt-2">
+                    <p class="col-4"></p>
+                        <button class="btn btn-success" type="submit">Enviar</button>
+                </div>
+            </div>
+        </form>
+        <div class="row">
+            <p class="col-4"></p>
+            <a href="www.facebook.com" class="col-1"><img src="img/facebook.svg" height="32" width="32" alt=""></a>
+            <a href="www.twitter.com" class="col-1"><img src="img/twitter.svg" height="32" width="32" alt=""></a>
+            <a href="www.instagram.com" class="col-1"><img src="img/instagram.svg" height="32" width="32" alt=""></a>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</body>
+</html>
